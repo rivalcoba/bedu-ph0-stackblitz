@@ -11,9 +11,26 @@ p {
   color: #8b8b8bcc;
   font-family: verdana;
   font-size: 20px;
+  text-align: center;
 }
 
 button {
   color: #fff;
   background-color: #025157;
+}
+
+.promo {
+  text-align: center;
+}
+
+.promo-image {
+  width: 70%;
+}
+
+.banner-logo-image {
+  width: 30%;
+}
+
+form {
+  text-align: center;
 }
