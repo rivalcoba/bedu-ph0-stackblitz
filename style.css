@@ -5,6 +5,8 @@ body {
 h1 {
   color: #025157;
   text-align: center;
+  font-family: 'Fascinate', cursive;
+  font-size: 50px;
 }
 
 p {
@@ -35,7 +37,7 @@ li {
   height: 45px;
   height: 100%;
   vertical-align: middle;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
