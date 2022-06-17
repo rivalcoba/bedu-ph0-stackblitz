@@ -5,7 +5,7 @@ body {
 h1 {
   color: #025157;
   text-align: center;
-  font-family: 'Fascinate', cursive;
+  font-family: "Fascinate", cursive;
   font-size: 50px;
 }
 
@@ -37,7 +37,7 @@ li {
   height: 45px;
   height: 100%;
   vertical-align: middle;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .logo {
@@ -83,18 +83,42 @@ li {
   text-align: center;
 }
 
-.promo {
-  text-align: center;
-}
-
-.promo-image {
-  width: 70%;
-}
-
-.banner-logo-image {
-  width: 30%;
-}
-
 form {
   text-align: center;
 }
+
+.promo{
+  display: flex;
+}
+
+.publish h3 {
+  font-family: "Fascinate", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.publish > form {
+  display: flex;
+}
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+ input + button {
+  line-height: 30px;
+  font-size: 10pt;
+  margin: 0;
+  border-radius: 0 5px 5px 0;
+ }
+
+ form > input {
+  margin: 0;
+  border-radius: 5px 0 0 5px ;
+ }
