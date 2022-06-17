@@ -87,8 +87,11 @@ form {
   text-align: center;
 }
 
-.promo{
+.promo {
   display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
 }
 
 .publish h3 {
@@ -111,14 +114,14 @@ form {
   color: #025157;
   margin-right: 18px;
 }
- input + button {
+input + button {
   line-height: 30px;
   font-size: 10pt;
   margin: 0;
   border-radius: 0 5px 5px 0;
- }
+}
 
- form > input {
+form > input {
   margin: 0;
-  border-radius: 5px 0 0 5px ;
- }
+  border-radius: 5px 0 0 5px;
+}
