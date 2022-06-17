@@ -34,8 +34,7 @@ li {
 .header > * {
   display: inline-block;
   font-size: 16px;
-  height: 45px;
-  height: 100%;
+  line-height: 45px;
   vertical-align: middle;
   font-family: "Montserrat", sans-serif;
 }
@@ -79,7 +78,7 @@ li {
 }
 
 .main {
-  margin-top: 140px;
+  margin-top: 150px;
   text-align: center;
 }
 
@@ -135,4 +134,11 @@ form > input {
 .explanatory-video img {
   width: 40px;
   margin-top: 10px;
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
 }
