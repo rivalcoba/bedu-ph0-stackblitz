@@ -142,3 +142,7 @@ form > input {
   right: 0;
   background-color: #fffbf7;
 }
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
