@@ -147,7 +147,7 @@ form > input {
   /* grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 300px); */
   height: 660px;
-  grid-template: repeat(2, 1fr) / repeat(2, 330px);
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }
 
 .feature1{
