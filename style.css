@@ -144,26 +144,21 @@ form > input {
 }
 .features {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 300px);
-  grid-template-areas:
-  "f1 f2"
-  "f3 f4" ;
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 300px); */
+  height: 660px;
+  grid-template: repeat(2, 1fr) / repeat(2, 330px);
 }
 
 .feature1{
   background-color: red;
-  grid-area: f1;
 }
 .feature2{
   background-color: purple;
-  grid-area: f2;
 }
 .feature3{
   background-color: aqua;
-  grid-area: f3;
 }
 .feature4{
   background-color: yellowgreen;
-  grid-area: f4;
 }
