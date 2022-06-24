@@ -219,6 +219,9 @@ form > input {
   h1 {
     font-size: 30px;
   }
+  .banner > img {
+    width: 100%;
+  }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
