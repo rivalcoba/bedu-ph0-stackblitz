@@ -213,6 +213,9 @@ form > input {
   .actions {
     display: none;
   }
+  .main {
+    margin-top: 130px;
+  }
   h1 {
     font-size: 30px;
   }
