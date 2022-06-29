@@ -48,6 +48,7 @@ li {
 }
 
 .navbar {
+  background-color: #fffbf7;
   text-align: center;
   color: #025157;
   font-weight: 500;
@@ -207,10 +208,6 @@ form > input {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar,
-  .actions {
-    display: none;
-  }
   .main {
     margin-top: 130px;
   }
@@ -230,7 +227,7 @@ form > input {
   .publish > form > div > input {
     width: 65%;
   }
-  .promo{
+  .promo {
     flex-direction: column;
     max-width: 90%;
   }
@@ -247,14 +244,14 @@ form > input {
     line-height: 1.2;
   }
 
-  .features{
+  .features {
     /*4 filas y una columna*/
-    grid-template: repeat(4,1fr) / 1fr;
+    grid-template: repeat(4, 1fr) / 1fr;
     padding-left: 0;
     padding-right: 0;
   }
 
-  .feature-image{
+  .feature-image {
     display: none;
   }
   .actions,
