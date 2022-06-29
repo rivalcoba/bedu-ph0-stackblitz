@@ -81,15 +81,9 @@ li {
   text-align: center;
 }
 
-form {
-  text-align: center;
-}
-
-.promo {
-  display: flex;
-  max-width: 70%;
-  margin: 100px auto;
-  align-items: center;
+.publish {
+  /* container styles if any */
+  margin-left: 30px;
 }
 
 .publish h3 {
@@ -105,23 +99,21 @@ form {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
 .publish > form {
   display: flex;
 }
+
 .publish > form p {
   color: #025157;
   margin-right: 18px;
 }
-input + button {
-  line-height: 30px;
-  font-size: 10pt;
-  margin: 0 0 0 -10px;
-  border-radius: 0 5px 5px 0;
-}
 
-form > input {
-  margin: 0;
-  border-radius: 5px 0 0 5px;
+.promo {
+  display: flex;
+  max-width: 70%;
+  margin: 100px auto;
+  align-items: center;
 }
 
 .explanatory-video {
