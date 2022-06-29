@@ -257,6 +257,10 @@ form > input {
   .feature-image{
     display: none;
   }
+  .actions,
+  .navbar {
+    text-align: center;
+  }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
@@ -265,6 +269,10 @@ form > input {
 
 /** dispositivos medianos (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .actions,
+  .navbar {
+    text-align: center;
+  }
 }
 
 /** dispositivos grandes (desktops) */
