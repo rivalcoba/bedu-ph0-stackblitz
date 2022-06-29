@@ -331,8 +331,20 @@ li {
   border: 5px solid #f9da73;
 }
 
+.success-stories .card .card-body .card-circle.summit {
+  background-color: #81d742;
+  border: 5px solid #81d742;
+}
+
+.success-stories .card .card-body .card-circle.mambe {
+  background-color: #ef7179;
+  border: 5px solid #ef7179;
+}
+
 /* Los círculos deben recibir la imagen y ajustarla al tamaño */
-.success-stories .card .card-body .card-circle.everly img {
+.success-stories .card .card-body .card-circle.everly img,
+.success-stories .card .card-body .card-circle.summit img,
+.success-stories .card .card-body .card-circle.mambe img {
   object-fit: contain;
   width: 100%;
 }
@@ -391,10 +403,6 @@ li {
   }
 }
 
-/** dispositivos pequeños en vista landscape (horizontal) */
-@media (min-width: 576px) and (max-width: 767px) {
-}
-
 /** dispositivos medianos (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
   .actions,
@@ -403,10 +411,14 @@ li {
   }
 }
 
-/** dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 991px) {
+  .success-stories {
+    flex-direction: column;
+    padding: 5% 15px;
+  }
 }
 
-/** dispositivos extra grandes (monitores grandes, tvs) */
-@media (min-width: 1200px) {
+@media (max-width: 575px) {
+  .success-stories {
+    flex-direction: column;
 }
