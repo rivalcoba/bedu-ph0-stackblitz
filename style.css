@@ -421,4 +421,5 @@ li {
 @media (max-width: 575px) {
   .success-stories {
     flex-direction: column;
+  }
 }
