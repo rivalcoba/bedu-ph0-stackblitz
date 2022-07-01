@@ -1,3 +1,4 @@
+/** colores */
 .blog .title {
   font-family: "Alegreya, serif";
   color: #135359;
@@ -5,7 +6,7 @@
 
 /** main.scss */
 .blog {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   max-width: unset;
   padding: 5% 10%;
 }
