@@ -10,9 +10,10 @@ $light-gray: #979797;
 $light-green: #67b54b;
 
 $font-title: "Alegreya", serif;
+
 // Permite definir un set de reglas
 // Estas reglas pueden ser heredadas
-%base-title{
+%base-title {
   font-family: $font-title;
   color: $dark-green-text;
 }
