@@ -1,0 +1,14 @@
+// _global.css
+
+// Colores
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #FFFFFF;
+
+$font-title: "Alegreya, serif";
+// Permite definir un set de reglas
+// Estas reglas pueden ser heredadas
+%base-title{
+  font-family: $font-title;
+  color: $dark-green-text;
+}
