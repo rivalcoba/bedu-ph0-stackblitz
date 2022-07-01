@@ -1,8 +1,26 @@
 {
-  "name": "node-starter",
+  "name": "bedu-front-ph01",
   "version": "0.0.0",
   "scripts": {
     "dev": "npx http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/bedu-ph0)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rivalcoba/bedu-ph0-stackblitz.git"
+  },
+  "keywords": [
+    "front-end"
+  ],
+  "author": "@rivalcoba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rivalcoba/bedu-ph0-stackblitz/issues"
+  },
+  "homepage": "https://github.com/rivalcoba/bedu-ph0-stackblitz#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
   }
 }
