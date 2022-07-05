@@ -423,3 +423,6 @@ li {
     flex-direction: column;
   }
 }
+.texto-boton:hover{
+  background-color: #67b54b;
+}
