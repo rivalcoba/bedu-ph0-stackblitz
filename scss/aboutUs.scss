@@ -84,11 +84,13 @@ body {
 }
 
 .card-title {
-  transition: color .3s ease-in-out;
   text-shadow: #025157 1px 1px 2px;
+  transition: color .3s ease-in-out;
+  transition: font-size 0.5s;
 
   &:hover {
     color: #67b54b;
+    font-size: 28px;
   }
 }
 
