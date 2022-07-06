@@ -80,4 +80,12 @@ body {
   border-radius: 5px;
 }
 
+.card-title {
+  transition: color 0.3s ease-in-out;
+  text-shadow: #025157 1px 1px 2px;
+}
+.card-title:hover {
+  color: #67b54b;
+}
+
 /*# sourceMappingURL=aboutUs.css.map */
